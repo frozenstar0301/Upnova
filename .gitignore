@@ -1,0 +1,66 @@
+# Node.js (Express backend)
+backend/node_modules
+backend/.env
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# Logs
+backend/logs
+*.log
+backend/logs/*.log
+
+# Build files (if any)
+backend/build/
+backend/dist/
+backend/.DS_Store
+
+# Debugging
+backend/.vscode/
+backend/.idea/
+
+# Coverage files (if you use testing frameworks like Jest)
+backend/coverage/
+backend/*.lcov
+
+# Temporary files
+*.tmp
+*.swp
+
+# macOS-specific files
+backend/.DS_Store
+
+# Windows-specific files
+backend/Thumbs.db
+backend/ehthumbs.db
+
+# React (frontend)
+frontend/node_modules
+frontend/build
+
+# Dependency directories
+# (Frontend)
+frontend/.pnp
+frontend/.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+frontend/.env
+
+# Local env files for React
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Static generated folder for React
+out/
+
+# Yarn berry
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
